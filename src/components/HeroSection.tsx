@@ -19,8 +19,8 @@ const HeroSection:React.FC<HeroSectionProps> = () => {
         <div className="bg-gray-900">
             <div className="relative isolate overflow-hidden pt-14">
                 <Image
-                    src="/assets/images/hero-bg-image-zai.jpg"
-                    className="absolute inset-0 -z-10 h-full w-full object-cover opacity-50" 
+                    src="/assets/images/hero-bg-image-zai-1.jpg"
+                    className="absolute inset-0 -z-10 h-full w-full object-cover opacity-50 object-bottom" 
                     alt="Picture of the author"
                     width={2000}
                     height={2000}
