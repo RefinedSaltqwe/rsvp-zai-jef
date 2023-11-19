@@ -13,14 +13,6 @@ type HeroSectionProps = {
     
 };
 
-const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
-    { name: 'Log in', href: '#' },
-]
-
 const HeroSection:React.FC<HeroSectionProps> = () => {
     
     return(
