@@ -11,7 +11,7 @@ const Ceremony:React.FC<CeremonyProps> = () => {
         <div className="bg-gray-900">
             <div className="relative isolate overflow-hidden pt-14">
                 <Image
-                    src="/assets/images/sanantoniodepaduaparish.jpg"
+                    src="/assets/images/stmichaelarchangelparish.jpg"
                     className="absolute inset-0 -z-10 h-full w-full object-cover opacity-30"
                     alt="Picture of the author"
                     width={2000}
@@ -36,15 +36,15 @@ const Ceremony:React.FC<CeremonyProps> = () => {
                             CEREMONY
                         </p>
                         <h1 className={`text-5xl font-bold tracking-tight text-white sm:text-[100px]`}>
-                            {`San Antonio de Padua Parish`}
+                            {`St. Michael Archangel Parish Church`}
                         </h1>
                         <p className="mt-11 text-xl leading-2 text-gray-300 p-8">
-                            12th St. Nazareth Cagayan de Oro City
+                            Mahayag, Zamboanga del Sur
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                         <a
                             target="_blank"
-                            href="https://goo.gl/maps/p3Dpud4Yx3hpUQgy6"
+                            href="https://maps.app.goo.gl/RzAAPrfeX9r6Y3DNA"
                             className="mt-10 rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                         >
                             GOOGLE MAPS

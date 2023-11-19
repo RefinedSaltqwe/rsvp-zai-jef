@@ -11,7 +11,7 @@ const Reception:React.FC<ReceptionProps> = () => {
         <div className="bg-gray-900">
             <div className="relative isolate overflow-hidden pt-14">
                 <Image
-                    src="/assets/images/covegarden.jpg"
+                    src="/assets/images/rudhil.jpg"
                     className="absolute inset-0 -z-10 h-full w-full object-cover opacity-30"
                     alt="Picture of the author"
                     width={2000}
@@ -36,15 +36,15 @@ const Reception:React.FC<ReceptionProps> = () => {
                             RECEPTION
                         </p>
                         <h1 className={`text-5xl font-bold tracking-tight text-white sm:text-[100px]`}>
-                            {`Cove Garden Resort`}
+                            {`Rudhil's Place`}
                         </h1>
                         <p className="mt-11 text-xl leading-2 text-gray-300 p-8">
-                            Zone 3 Old Road, Cagayan de Oro, 9000 Misamis Oriental, Philippines
+                            Delosum, Mahayag, Zamboanga del Sur
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                         <a
                             target="_blank"
-                            href="https://goo.gl/maps/pTHV5Cb4jjxTugxS6"
+                            href="https://maps.app.goo.gl/5sT9pZrZHAEdRygu8"
                             className="mt-10 rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                         >
                             GOOGLE MAPS

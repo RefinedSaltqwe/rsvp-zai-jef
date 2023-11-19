@@ -1,5 +1,5 @@
 const people = [
-    { id: 1, name: 'Malou Suazo', seatNumber: 1, numberOfGuests: 2, code: "763", status: "Principal Sponsors" },
+    { id: 1, name: 'Malou Suazo', seatNumber: 1, numberOfGuests: 2, code: "123", status: "Principal Sponsors" },
     // { id: 2, name: 'Romeo Suazo', seatNumber: 1, numberOfGuests: 1, code: "445", status: "Sponsor" },
     { id: 3, name: 'Fay Abegail Suazo', seatNumber: 1, numberOfGuests: 1, code: "525", status: "Flower Lady" },
     { id: 4, name: 'Ellen Balangao', seatNumber: 1, numberOfGuests: 2, code: "262", status: "Principal Sponsors" },

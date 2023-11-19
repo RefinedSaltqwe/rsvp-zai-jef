@@ -27,7 +27,7 @@ const features = [
     {
       name: 'Dress code',
       description:
-        'The dress code for our wedding is formal or smart-casual and in shades of blue and grey. Please do not wear navy/midnight blue and white. We would highly appreciate it if guests adhere to the dress code. Thank you.',
+        'The dress code for our wedding is formal or semi-formal and in shades of pink. We would highly appreciate it if guests adhere to the dress code. Thank you.',
       icon: CheckCircleIcon,
     },
   ]
@@ -51,16 +51,16 @@ const Details:React.FC<DetailsProps> = () => {
                       {feature.name}
                     </dt>
                     <dd className="mt-1 text-base leading-7 text-gray-600">
-                        {feature.name === "Where" && (<><br/><p className='font-semibold'>Church: St. Archangel Parish Church</p></>)}
+                        {feature.name === "Where" && (<><br/><p className='font-semibold'>Church: St. Michael Archangel Parish Church</p></>)}
                         {feature.name === "Where" && (
                             <>
-                              {"12th St. Nazareth Cagayan de Oro City"}
+                              {"Mahayag Zamboanga del Sur"}
                               <br/>
                             </>
                           )}
                         <br/>
                         {feature.name === "Where" ? (<p className='font-semibold'>{`Reception: ${feature.description}`}</p>) : feature.description }
-                        {feature.name === "Where" && "Mahayag, Zamboanga del Sur"}
+                        {feature.name === "Where" && "Delusom, Mahayag, Zamboanga del Sur"}
                     </dd>
                   </div>
                 ))}
